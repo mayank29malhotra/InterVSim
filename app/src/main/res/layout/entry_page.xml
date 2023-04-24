@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="32dp"
+                android:paddingBottom="50dp"
+                app:srcCompat="@drawable/image2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_color"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/textView1s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/enter_your_details"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName1d"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/name_box"
+                    android:ems="10"
+                    android:textSize="20sp"
+                    android:hint="Enter your name"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold"
+                    android:paddingStart="20dp"
+                    android:textColor="#5A3EBD"
+                    android:textColorHint="#5A3EBD" />
+
+                <TextView
+                    android:id="@+id/textViews"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="32dp"
+                    android:textStyle="bold"
+                    android:text="Choose your degree"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="32dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/spinner_layout"
+                    android:prompt="@string/degree_prompt" />
+
+                <TextView
+                    android:id="@+id/textView2w"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="32dp"
+                    android:textStyle="bold"
+                    android:text="Position you want to apply"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/pos_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="34dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="#5A3EBD"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/name_box"
+                     />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="32dp"
+                    android:textStyle="bold"
+                    android:text="Name of the company"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="34dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="#5A3EBD"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/name_box" />
+
+                <TextView
+                    android:id="@+id/textViefw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="32dp"
+                    android:text="Describe yourself in 3-5 sentences"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                     />
+
+                <EditText
+                    android:id="@+id/editTextTextMultiLinef"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/name_box"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#5A3EBD"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="8dp"
+                    android:textColorHint="@color/white" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#EC9F05"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="120dp"
+                    android:text="Submit" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

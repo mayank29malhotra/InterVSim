@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="degree_prompt">Choose a degree</string>
+    <string-array name="degree_list">
+        <item>B.Tech </item>
+        <item>M.tech</item>
+    </string-array>
+
+</resources>

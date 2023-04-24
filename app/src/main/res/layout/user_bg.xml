@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:layout_margin="5dp"
+    android:backgroundTint="@color/teal_200"
+    android:elevation="8dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#05655C"
+        android:layout_marginStart="80dp"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="4dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/user_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:text="User message"
+            android:textColor="@color/white"
+            android:textIsSelectable="true"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
