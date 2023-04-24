@@ -180,7 +180,7 @@ public class ChatbotActivity extends AppCompatActivity {
         Request request = new Request.Builder()
                 .url("\n" +
                         "https://api.openai.com/v1/chat/completions")
-                .header("Authorization","Bearer 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")
+                .header("Authorization","Bearer YOUR API KEY")
                 .post(body)
                 .build();
         client.newCall(request).enqueue(new okhttp3.Callback() {
