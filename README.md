@@ -16,9 +16,12 @@ The project was a team effort by the following members:
 - Backend is done in Java using OkHttp Library
 
 ## Contributions
-- Mayank Malhotra: Whole backend work related to API calling, setting up API, setting the optimal inputs to the API, modifying the questions, representing them in one-by-one format.
-- R.Soundarya: Designed and developed the Splash Screen, Login Page, ChatBot Page User Interface.
-- GM Sharan: Designed the splash screen icon, created the app icon, and made the Android app responsive.
+- Mayank Malhotra - As the primary backend developer for the Project, Mayank integrated the OpenAI GPT Turbo 3.5 model into the Android app using Java and the OkHttp library. He was responsible for setting up the API and optimizing the inputs to the API. Additionally, Mayank modified the questions and represented them in a one-by-one format. He also developed the code to handle API requests and responses, which included parsing JSON data and handling errors.
+
+- R.Soundarya - As the primary UI/UX designer for the Project, R.Soundarya was responsible for designing and developing the Splash Screen, Login Page, and Interactive ChatBot Page User Interface. She used XML design in Android Studio to create the UI and she also implemented the Lotte Dependencies to create animations for the Splash Screen. 
+
+- GM Sharan - As the primary graphic designer for the Project, GM Sharan designed the splash screen icon and created the app icon for InterVSim. Additionally, GM Sharan was responsible for making the Android app responsive, ensuring that it could be used across different screen sizes and resolutions. He utilized Android Studio's layout editor and tested the app on various devices to ensure that it was user-friendly and easy to navigate.
+
 
 ## Installation
 1. Clone the repository using `git clone https://github.com/yourusername/InterVSim.git`.
