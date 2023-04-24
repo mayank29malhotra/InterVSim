@@ -26,7 +26,8 @@ The project was a team effort by the following members:
 ## Installation
 1. Clone the repository using `git clone https://github.com/yourusername/InterVSim.git`.
 2. Open the project in Android Studio.
-3. Build and run the project on your Android device or emulator.
+3. Replace "YOUR API KEY" with the API key from the OpenAI website - `https://platform.openai.com/account/api-keys`.
+4. Build and run the project on your Android device or emulator.
 
 ## Usage
 1. Launch the InterVSim app on your Android device.
