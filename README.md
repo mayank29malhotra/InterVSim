@@ -28,12 +28,7 @@ The project was a team effort by the following members:
 ## Usage
 1. Launch the InterVSim app on your Android device.
 2. Enter basic information about the person, job, and company.
-3. Tap on the "Start Interview" button to begin the simulated interview.
+3. Tap on the "Submit" button to begin the simulated interview.
 4. Answer the questions one-by-one as they appear on the screen.
 5. After answering all the questions, the app will evaluate your answers and provide feedback for each answer.
 
-## Credits
-This app was created by Mayank Malhotra, R.Soundarya, and GM Sharan as a team project.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
