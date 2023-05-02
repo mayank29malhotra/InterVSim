@@ -38,5 +38,6 @@ The project was a team effort by the following members:
 
 UI:
 
-![alt text](https://github.com/mayank29malhotra/InterVSim/blob/master/1.jpg?raw=true)
+<img src="https://github.com/mayank29malhotra/InterVSim/blob/master/1.jpg?raw=true" alt="alt text" width="400px">
+
 
