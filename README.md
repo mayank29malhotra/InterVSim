@@ -36,3 +36,7 @@ The project was a team effort by the following members:
 4. Answer the questions one-by-one as they appear on the screen.
 5. After answering all the questions, the app will evaluate your answers and provide feedback for each answer.
 
+UI:
+
+![alt text](https://github.com/mayank29malhotra/InterVSim/blob/master/1.jpg?raw=true)
+
