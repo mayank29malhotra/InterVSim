@@ -39,6 +39,11 @@ The project was a team effort by the following members:
 ## User Interface
 1) Form to Input the Information:
 <img src="https://github.com/mayank29malhotra/InterVSim/blob/master/1.jpg?raw=true" alt="alt text" width="300px">
+<img src="https://github.com/mayank29malhotra/InterVSim/blob/master/2.jpg?raw=true" alt="alt text" width="300px">
+
+2) Questions Generation on the Basis of the form Data
+<img src="https://github.com/mayank29malhotra/InterVSim/blob/master/3.jpg?raw=true" alt="alt text" width="300px">
+
 
 
 
