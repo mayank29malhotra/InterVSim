@@ -36,8 +36,9 @@ The project was a team effort by the following members:
 4. Answer the questions one-by-one as they appear on the screen.
 5. After answering all the questions, the app will evaluate your answers and provide feedback for each answer.
 
-UI:
+## User Interface
+1) Form to Input the Information:
+<img src="https://github.com/mayank29malhotra/InterVSim/blob/master/1.jpg?raw=true" alt="alt text" width="300px">
 
-<img src="https://github.com/mayank29malhotra/InterVSim/blob/master/1.jpg?raw=true" alt="alt text" width="400px">
 
 
